@@ -32,6 +32,9 @@ IP-CIDR,151.243.229.205
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,simplelogin.io
 
+# SafePal
+DOMAIN-SUFFIX,safepal.com
+
 # VPS
 DOMAIN-SUFFIX,zouter.io
 
