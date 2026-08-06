@@ -35,6 +35,9 @@ DOMAIN-SUFFIX,simplelogin.io
 # SafePal
 DOMAIN-SUFFIX,safepal.com
 
+# Synology
+DOMAIN-SUFFIX,synologydownload.com
+
 # VPS
 DOMAIN-SUFFIX,zouter.io
 
