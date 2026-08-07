@@ -46,6 +46,11 @@ nas.redbangshanghai.com
 .xiaojuchefu.cn
 .xiaojukeji.com
 
+# Synology
+.quickconnect.cn
+.checkip.synology.com
+.ddns.synology.com
+
 # 飞书
 .feishu.cn
 
@@ -345,9 +350,6 @@ nas.redbangshanghai.com
 .trip.com
 .tripcdn.com
 .vipdlt.com
-
-# 群晖
-.quickconnect.cn
 
 # 小米
 .408399.com
