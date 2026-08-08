@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,safepal.com
 DOMAIN-SUFFIX,sparrowwallet.com
 DOMAIN-SUFFIX,mempool.space
 DOMAIN-SUFFIX,bitaroo.net
+DOMAIN-SUFFIX,blockstream.info
 
 # Synology
 DOMAIN-SUFFIX,synologydownload.com
