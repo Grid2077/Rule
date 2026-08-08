@@ -39,6 +39,11 @@ DOMAIN-SUFFIX,simplelogin.io
 # SafePal
 DOMAIN-SUFFIX,safepal.com
 
+# Sparrow
+DOMAIN-SUFFIX,sparrowwallet.com
+DOMAIN-SUFFIX,mempool.space
+DOMAIN-SUFFIX,bitaroo.net
+
 # Synology
 DOMAIN-SUFFIX,synologydownload.com
 
