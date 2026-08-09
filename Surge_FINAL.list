@@ -34,6 +34,8 @@ IP-CIDR,66.92.50.112
 
 #Infuse
 DOMAIN-SUFFIX,infuse.im
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,themoviedb.org
 
 # Mail
 DOMAIN-SUFFIX,proton.me
