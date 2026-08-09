@@ -32,6 +32,9 @@ IP-CIDR,155.117.224.137
 IP-CIDR,151.243.229.205
 IP-CIDR,66.92.50.112
 
+#Infuse
+DOMAIN-SUFFIX,infuse.im
+
 # Mail
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,simplelogin.io
