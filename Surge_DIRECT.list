@@ -18,6 +18,10 @@ nas.redbangshanghai.com
 .rails.cn
 .tdpress.com
 
+# Apple
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
+
 # DiDi
 .diditaxi.com.cn
 .apptaxi.com.cn
