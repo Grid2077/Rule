@@ -19,8 +19,8 @@ nas.redbangshanghai.com
 .tdpress.com
 
 # Apple
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
+.mail.icloud.com.cn
+.mail.me.com
 
 # DiDi
 .diditaxi.com.cn
