@@ -331,7 +331,6 @@ DOMAIN-SUFFIX,ddog-gov.com
 
 # Google
 DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,app-analytics-services-att.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
