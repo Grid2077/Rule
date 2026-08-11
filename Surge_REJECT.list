@@ -922,6 +922,9 @@ DOMAIN-SUFFIX,shuzilm.com
 DOMAIN-SUFFIX,iecosystem.com.cn
 DOMAIN-SUFFIX,marsflag.com.cn
 
+# 病毒
+DOMAIN-SUFFIX,jxtech.store
+
 # 充电
 DOMAIN-SUFFIX,ad.luketop.cn
 
