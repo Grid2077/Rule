@@ -923,6 +923,7 @@ DOMAIN-SUFFIX,iecosystem.com.cn
 DOMAIN-SUFFIX,marsflag.com.cn
 
 # 病毒
+DOMAIN-SUFFIX,iobit.com
 DOMAIN-SUFFIX,jxtech.store
 
 # 充电
@@ -981,9 +982,6 @@ DOMAIN-SUFFIX,statics.jd.com
 
 # 酷比客股份有限公司
 DOMAIN-SUFFIX,clipick.com
-
-# 流氓软件
-DOMAIN-SUFFIX,iobit.com
 
 # 拼多多
 DOMAIN-SUFFIX,apm-a.pinduoduo.com
