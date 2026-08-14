@@ -14,12 +14,12 @@ concurrency:
 # 修改源地址、每份行数或输出文件名时，只需调整这里。
 env:
   SOURCE_URL: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt"
-  LINES_PER_FILE: "52000"
+  LINES_PER_FILE: "51500"
   OUTPUT_DIR: "."
   OUTPUT_PREFIX: "anti-AD-"
   OUTPUT_SUFFIX: ".list"
   HASH_FILE: ".anti-AD.sha256"
-  MIN_RULES: "52001"
+  MIN_RULES: "51501"
   LC_ALL: "C"
 
 jobs:
