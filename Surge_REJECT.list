@@ -389,10 +389,6 @@ DOMAIN-SUFFIX,collector.eu01.nr-data.net
 DOMAIN-SUFFIX,collector.newrelic.com
 DOMAIN-SUFFIX,log-api.newrelic.com
 
-# OpenCat
-DOMAIN-SUFFIX,rc-backup.com
-DOMAIN-SUFFIX,revenuecat.com
-
 # P2P 缀初网络技术（上海）有限公司
 DOMAIN-SUFFIX,paigod.work
 DOMAIN-SUFFIX,painet.work
