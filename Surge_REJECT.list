@@ -984,6 +984,9 @@ DOMAIN-SUFFIX,api.installer.xiaomi.com
 DOMAIN-SUFFIX,miav-cse.avlyun.com
 DOMAIN-SUFFIX,miui-fxcse.avlyun.com
 
+# 丰巢
+DOMAIN-SUFFIX,hugelog.fcbox.com
+
 # 广州韵成通信科技有限公司
 DOMAIN-SUFFIX,techyc.com
 
