@@ -1369,6 +1369,9 @@ DOMAIN-SUFFIX,wakecloud.com
 DOMAIN-SUFFIX,wakedata.cn
 DOMAIN-SUFFIX,wakedata.com
 
+# 招商银行
+DOMAIN,log.cmbchina.com
+
 # 字节跳动
 DOMAIN-SUFFIX,applog-bd.feishu.cn
 DOMAIN-SUFFIX,ecombdimg.com
