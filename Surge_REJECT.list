@@ -294,8 +294,8 @@ DOMAIN-SUFFIX,bigqueryreservation.googleapis.com
 DOMAIN-SUFFIX,bigquerystorage.googleapis.com
 
 # Binance
-DOMAIN-SUFFIX,saasexch.co
 DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,saasexch.co
 
 # BlockBeats
 DOMAIN-SUFFIX,sunofbeaches.com
