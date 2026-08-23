@@ -329,6 +329,32 @@ DOMAIN-SUFFIX,datadoghq.eu
 DOMAIN-SUFFIX,datadoghq.me
 DOMAIN-SUFFIX,ddog-gov.com
 
+# Facebook
+DOMAIN,b-graph-fallback.facebook.com
+DOMAIN,b-graph.facebook.com
+DOMAIN,graph-fallback.facebook.com
+DOMAIN,graph.facebook.com
+DOMAIN,graph.fbpigeon.com
+DOMAIN,graph.m-freeway.com
+DOMAIN,z-m-graph.facebook.com
+DOMAIN,web.facebook.com
+DOMAIN,web-fallback.facebook.com
+DOMAIN,connect.facebook.com
+DOMAIN,connect.facebook.net
+DOMAIN-WILDCARD,ep*.facebook.com
+DOMAIN,mqtt-mini.facebook.com
+DOMAIN,graph.whatsapp.com
+DOMAIN,graph.whatsapp.net
+DOMAIN,graph.meta.com
+DOMAIN,graph.meta.ai
+DOMAIN,star-mini.c10r.facebook.com
+DOMAIN,star-mini.fallback.c10r.facebook.com
+DOMAIN,star.c10r.facebook.com
+DOMAIN,star.fallback.c10r.facebook.com
+DOMAIN,star.fallback.c10r.instagram.com
+DOMAIN,star-mini-nohsts.c10r.facebook.com
+DOMAIN,star-nohsts.c10r.facebook.com
+
 # Google
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,app-analytics-services-att.com
