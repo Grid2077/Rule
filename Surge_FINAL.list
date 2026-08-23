@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,pump.fun
 DOMAIN-SUFFIX,garmin.com
 DOMAIN-SUFFIX,garmin.cn
 
+# Bitcoin
+DOMAIN-SUFFIX,bitcoin.org
+
 # Bitwarden
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
