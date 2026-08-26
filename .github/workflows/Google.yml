@@ -1,1 +1,46 @@
+name: Merge Google and YouTube rules
 
+on:
+  schedule:
+    # Every day at 11:17 Asia/Shanghai (03:17 UTC).
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge-google-and-youtube-rules
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Check and merge upstream rules
+        run: python3 .github/scripts/merge_google_rules.py
+
+      - name: Commit changed artifacts
+        shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain -- Google.list Google.sha256)" ]]; then
+            echo "Upstream sources are unchanged; nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- Google.list Google.sha256
+          git commit -m "chore: update merged Google rules"
+          git push origin "HEAD:refs/heads/${TARGET_BRANCH}"
