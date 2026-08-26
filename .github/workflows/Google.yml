@@ -1,46 +1,136 @@
-name: Merge Google and YouTube rules
+name: Google
 
 on:
   schedule:
-    # Every day at 11:17 Asia/Shanghai (03:17 UTC).
-    - cron: "17 3 * * *"
+    # 每天北京时间/台北时间 02:00 执行
+    # GitHub Actions cron 使用 UTC
+    - cron: "0 18 * * *"
+
+  # 支持手动运行
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: merge-google-and-youtube-rules
+  group: update-google-rules
   cancel-in-progress: false
 
 jobs:
-  merge:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v7
-        with:
-          ref: ${{ github.event.repository.default_branch }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Check and merge upstream rules
-        run: python3 .github/scripts/merge_google_rules.py
-
-      - name: Commit changed artifacts
+      - name: Download source rules
         shell: bash
-        env:
-          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
 
-          if [[ -z "$(git status --porcelain -- Google.list Google.sha256)" ]]; then
-            echo "Upstream sources are unchanged; nothing to commit."
-            exit 0
+          curl \
+            --fail \
+            --location \
+            --retry 3 \
+            --retry-delay 5 \
+            -o /tmp/Google.src \
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list"
+
+          curl \
+            --fail \
+            --location \
+            --retry 3 \
+            --retry-delay 5 \
+            -o /tmp/YouTube.src \
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+
+          # 防止下载到空文件
+          test -s /tmp/Google.src
+          test -s /tmp/YouTube.src
+
+      - name: Check source changes
+        id: source
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # 分别记录两个源文件的 SHA256
+          {
+            printf "Google  "
+            sha256sum /tmp/Google.src | awk '{print $1}'
+
+            printf "YouTube "
+            sha256sum /tmp/YouTube.src | awk '{print $1}'
+          } > /tmp/google_sources.sha256
+
+          echo "Current source hashes:"
+          cat /tmp/google_sources.sha256
+
+          # 如果两个源都没有变化，则直接结束
+          if [ -f ".google_sources.sha256" ] && \
+             cmp -s /tmp/google_sources.sha256 .google_sources.sha256; then
+            echo "Sources unchanged. Skip merge."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Source changed. Merge required."
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Merge and deduplicate
+        if: steps.source.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Google 在前，YouTube 在后
+          # 删除：
+          # 1. Windows CR
+          # 2. 注释行
+          # 3. 空行
+          # 4. 完全重复的规则
+          cat /tmp/Google.src /tmp/YouTube.src \
+            | sed 's/\r$//' \
+            | awk '
+                /^[[:space:]]*#/ { next }
+                /^[[:space:]]*$/ { next }
+                !seen[$0]++
+              ' \
+            > Google.list
+
+          test -s Google.list
+
+          # 生成最终 Google.list 的 SHA256
+          sha256sum Google.list > Google.sha256
+
+          # 保存两个上游源文件的状态
+          cp /tmp/google_sources.sha256 .google_sources.sha256
+
+          echo "Google.list rules:"
+          wc -l Google.list
+
+          echo "Google.list SHA256:"
+          cat Google.sha256
+
+      - name: Commit changes
+        if: steps.source.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- Google.list Google.sha256
-          git commit -m "chore: update merged Google rules"
-          git push origin "HEAD:refs/heads/${TARGET_BRANCH}"
+
+          git add \
+            Google.list \
+            Google.sha256 \
+            .google_sources.sha256
+
+          # 防止没有实际变化时报错
+          if git diff --cached --quiet; then
+            echo "No file changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update Google rules"
+          git push
