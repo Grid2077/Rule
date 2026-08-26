@@ -62,14 +62,14 @@ jobs:
 
             printf "YouTube "
             sha256sum /tmp/YouTube.src | awk '{print $1}'
-          } > /tmp/YouTube.sha256
+          } > /tmp/Google.sha256
 
           echo "Current source hashes:"
-          cat /tmp/YouTube.sha256
+          cat /tmp/Google.sha256
 
           # 如果两个源都没有变化，则直接结束
-          if [ -f ".YouTube.sha256" ] && \
-             cmp -s /tmp/YouTube.sha256 .YouTube.sha256; then
+          if [ -f ".Google.sha256" ] && \
+             cmp -s /tmp/Google.sha256 .Google.sha256; then
             echo "Sources unchanged. Skip merge."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -100,17 +100,11 @@ jobs:
 
           test -s Google.list
 
-          # 生成最终 Google.list 的 SHA256
-          sha256sum Google.list > Google.sha256
-
           # 保存两个上游源文件的状态
-          cp /tmp/YouTube.sha256 .YouTube.sha256
+          cp /tmp/Google.sha256 .Google.sha256
 
           echo "Google.list rules:"
           wc -l Google.list
-
-          echo "Google.list SHA256:"
-          cat Google.sha256
 
       - name: Commit changes
         if: steps.source.outputs.changed == 'true'
@@ -123,8 +117,7 @@ jobs:
 
           git add \
             Google.list \
-            Google.sha256 \
-            .YouTube.sha256
+            .Google.sha256
 
           # 防止没有实际变化时报错
           if git diff --cached --quiet; then
