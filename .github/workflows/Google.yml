@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download source rules
         shell: bash
@@ -62,14 +62,14 @@ jobs:
 
             printf "YouTube "
             sha256sum /tmp/YouTube.src | awk '{print $1}'
-          } > /tmp/google_sources.sha256
+          } > /tmp/YouTube.sha256
 
           echo "Current source hashes:"
-          cat /tmp/google_sources.sha256
+          cat /tmp/YouTube.sha256
 
           # 如果两个源都没有变化，则直接结束
-          if [ -f ".google_sources.sha256" ] && \
-             cmp -s /tmp/google_sources.sha256 .google_sources.sha256; then
+          if [ -f ".YouTube.sha256" ] && \
+             cmp -s /tmp/YouTube.sha256 .YouTube.sha256; then
             echo "Sources unchanged. Skip merge."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -104,7 +104,7 @@ jobs:
           sha256sum Google.list > Google.sha256
 
           # 保存两个上游源文件的状态
-          cp /tmp/google_sources.sha256 .google_sources.sha256
+          cp /tmp/YouTube.sha256 .YouTube.sha256
 
           echo "Google.list rules:"
           wc -l Google.list
@@ -124,7 +124,7 @@ jobs:
           git add \
             Google.list \
             Google.sha256 \
-            .google_sources.sha256
+            .YouTube.sha256
 
           # 防止没有实际变化时报错
           if git diff --cached --quiet; then
