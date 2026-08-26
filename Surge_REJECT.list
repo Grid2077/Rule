@@ -388,15 +388,18 @@ DOMAIN-SUFFIX,urchin.com
 DOMAIN-SUFFIX,growthbook.io
 
 # HttpDNS
+AND,((PROTOCOL,TCP),(DEST-PORT,853))
+AND,((PROTOCOL,UDP),(DEST-PORT,853))
 #Alibaba
 DOMAIN,httpdns-api.aliyuncs.com
 DOMAIN,httpdns-sc.aliyuncs.com
 DOMAIN,httpdns.alicdn.com
 DOMAIN,resolvers-cn.httpdns.aliyuncs.com
 DOMAIN-SUFFIX,alidns.com
-IP-CIDR,203.107.1.0/24,no-resolve
-IP-CIDR,223.5.5.5/32,no-resolve
-IP-CIDR,223.6.6.6/32,no-resolve
+IP-CIDR,223.5.5.5,no-resolve
+IP-CIDR,223.6.6.6,no-resolve
+IP-CIDR,2400:3200::1,no-resolve
+IP-CIDR,2400:3200:baba::1,no-resolve
 #Baidu
 DOMAIN,httpdns.bcelive.com
 DOMAIN-SUFFIX,httpdns.baidu.com
