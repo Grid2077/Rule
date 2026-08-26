@@ -1,4 +1,4 @@
-name: Google
+name: Merge Google
 
 on:
   schedule:
