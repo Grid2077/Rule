@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,blockstream.info
 DOMAIN-SUFFIX,bitaroo.net
 
 # Synology
+DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,synologydownload.com
 
 # V2EX
