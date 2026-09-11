@@ -1,5 +1,3 @@
-DOMAIN-SUFFIX,app-site-association.networking.apple
-DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
 DOMAIN-SUFFIX,apple-carry-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net
@@ -14,10 +12,12 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.edgesuite.net
 DOMAIN-SUFFIX,appleicloud.cn
 DOMAIN-SUFFIX,applemx-icloud.com
+DOMAIN-SUFFIX,appleschoolcontent.com
 DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,buy.itunes.apple.com
+DOMAIN-SUFFIX,axm-usercontent-apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,icloud-apple.cn
@@ -62,15 +62,14 @@ DOMAIN-SUFFIX,icloudos.net
 DOMAIN-SUFFIX,icloudpay.net
 DOMAIN-SUFFIX,icloudsecure.net
 DOMAIN-SUFFIX,icloudsetup.com
-DOMAIN-SUFFIX,icons.axm-usercontent-apple.com
 DOMAIN-SUFFIX,ios-icloud.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,myicloud.net
 DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,token.safebrowsing.apple
-DOMAIN-SUFFIX,upload.appleschoolcontent.com
+DOMAIN-SUFFIX,networking.apple
+DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,wwwicloud.com
 
 IP-CIDR,17.0.0.0/8,no-resolve
