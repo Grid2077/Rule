@@ -287,12 +287,6 @@ DOMAIN-SUFFIX,stocks-analytics-events.apple.com
 DOMAIN-SUFFIX,supportmetrics.apple-support.akadns.net
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 
-# BigQuery
-DOMAIN-SUFFIX,bigquery.googleapis.com
-DOMAIN-SUFFIX,bigqueryconnection.googleapis.com
-DOMAIN-SUFFIX,bigqueryreservation.googleapis.com
-DOMAIN-SUFFIX,bigquerystorage.googleapis.com
-
 # Binance
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,saasexch.com
@@ -383,6 +377,11 @@ DOMAIN-SUFFIX,people-pa.googleapis.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,suggestqueries.google.com
 DOMAIN-SUFFIX,urchin.com
+DOMAIN-SUFFIX,bigquery.googleapis.com
+DOMAIN-SUFFIX,bigqueryconnection.googleapis.com
+DOMAIN-SUFFIX,bigqueryreservation.googleapis.com
+DOMAIN-SUFFIX,bigquerystorage.googleapis.com
+DOMAIN-SUFFIX,crashlytics.com
 
 # GrowthBook
 DOMAIN-SUFFIX,growthbook.io
