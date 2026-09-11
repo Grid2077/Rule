@@ -35,6 +35,9 @@ IP-CIDR,155.117.224.137,no-resolve
 IP-CIDR,151.243.229.205,no-resolve
 IP-CIDR,66.92.50.112,no-resolve
 
+# DigiCert
+DOMAIN-SUFFIX,digicert.com
+
 # Home Assistant
 DOMAIN-SUFFIX,home-assistant.io
 
