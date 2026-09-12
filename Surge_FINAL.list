@@ -20,6 +20,9 @@ DOMAIN-SUFFIX,bitwarden.eu
 DOMAIN-SUFFIX,btwrdn.co
 DOMAIN-SUFFIX,btwrdn.com
 
+# Blog
+DOMAIN-SUFFIX,404707.xyz
+
 # ChiaCloud
 DOMAIN-SUFFIX,chiacloud.cc
 DOMAIN-SUFFIX,chialink.top
