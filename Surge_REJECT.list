@@ -927,7 +927,7 @@ DOMAIN-SUFFIX,guide-acs.m.taobao.com
 DOMAIN-SUFFIX,loggw-ex.alipay.com
 DOMAIN-SUFFIX,loggw.alipay.com
 DOMAIN-SUFFIX,mcube.alipay.com
-DOMAIN-SUFFIX,mdap.alipay.com
+#DOMAIN-SUFFIX,mdap.alipay.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mos.m.taobao.com
 DOMAIN-SUFFIX,openmonitor.alipay-eco.com
