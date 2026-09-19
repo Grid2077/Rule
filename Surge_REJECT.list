@@ -1416,6 +1416,17 @@ DOMAIN-SUFFIX,wakedata.com
 # 招商银行
 DOMAIN,log.cmbchina.com
 
+# 智谱
+aminer.cn
+bigmodel.cn
+codegeex.cn
+chatglm.com
+chatglm.cn
+space-z.ai
+zhipuai.com
+zhipuai.cn
+z.ai
+
 # 字节跳动
 DOMAIN-SUFFIX,applog-bd.feishu.cn
 DOMAIN-SUFFIX,ecombdimg.com
