@@ -1417,15 +1417,15 @@ DOMAIN-SUFFIX,wakedata.com
 DOMAIN,log.cmbchina.com
 
 # 智谱
-aminer.cn
-bigmodel.cn
-codegeex.cn
-chatglm.com
-chatglm.cn
-space-z.ai
-zhipuai.com
-zhipuai.cn
-z.ai
+DOMAIN-SUFFIX,aminer.cn
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,codegeex.cn
+DOMAIN-SUFFIX,chatglm.com
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,space-z.ai
+DOMAIN-SUFFIX,zhipuai.com
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,z.ai
 
 # 字节跳动
 DOMAIN-SUFFIX,applog-bd.feishu.cn
