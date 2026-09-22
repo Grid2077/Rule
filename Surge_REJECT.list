@@ -329,32 +329,6 @@ DOMAIN-SUFFIX,datadoghq.eu
 DOMAIN-SUFFIX,datadoghq.me
 DOMAIN-SUFFIX,ddog-gov.com
 
-# Facebook
-DOMAIN,b-graph-fallback.facebook.com
-DOMAIN,b-graph.facebook.com
-DOMAIN,graph-fallback.facebook.com
-DOMAIN,graph.facebook.com
-DOMAIN,graph.fbpigeon.com
-DOMAIN,graph.m-freeway.com
-DOMAIN,z-m-graph.facebook.com
-DOMAIN,web.facebook.com
-DOMAIN,web-fallback.facebook.com
-DOMAIN,connect.facebook.com
-DOMAIN,connect.facebook.net
-DOMAIN-WILDCARD,ep*.facebook.com
-DOMAIN,mqtt-mini.facebook.com
-DOMAIN,graph.whatsapp.com
-DOMAIN,graph.whatsapp.net
-DOMAIN,graph.meta.com
-DOMAIN,graph.meta.ai
-DOMAIN,star-mini.c10r.facebook.com
-DOMAIN,star-mini.fallback.c10r.facebook.com
-DOMAIN,star.c10r.facebook.com
-DOMAIN,star.fallback.c10r.facebook.com
-DOMAIN,star.fallback.c10r.instagram.com
-DOMAIN,star-mini-nohsts.c10r.facebook.com
-DOMAIN,star-nohsts.c10r.facebook.com
-
 # Google
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,app-analytics-services-att.com
@@ -432,7 +406,7 @@ DOMAIN,httpdns.c.cdnhwc2.com
 #iQIYI
 DOMAIN,doh.iqiyi.com
 #JD
-DOMAIN,dns.jd.com
+DOMAIN-SUFFIX,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR,103.224.222.208/32,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
@@ -497,6 +471,30 @@ DOMAIN-SUFFIX,api.ipify.org
 # Meta
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,test-gateway.instagram.com
+# Facebook
+DOMAIN,b-graph-fallback.facebook.com
+DOMAIN,b-graph.facebook.com
+DOMAIN,graph-fallback.facebook.com
+DOMAIN,graph.fbpigeon.com
+DOMAIN,graph.m-freeway.com
+DOMAIN,z-m-graph.facebook.com
+DOMAIN,web.facebook.com
+DOMAIN,web-fallback.facebook.com
+DOMAIN,connect.facebook.com
+DOMAIN,connect.facebook.net
+DOMAIN-WILDCARD,ep*.facebook.com
+DOMAIN,mqtt-mini.facebook.com
+DOMAIN,graph.whatsapp.com
+DOMAIN,graph.whatsapp.net
+DOMAIN,graph.meta.com
+DOMAIN,graph.meta.ai
+DOMAIN,star-mini.c10r.facebook.com
+DOMAIN,star-mini.fallback.c10r.facebook.com
+DOMAIN,star.c10r.facebook.com
+DOMAIN,star.fallback.c10r.facebook.com
+DOMAIN,star.fallback.c10r.instagram.com
+DOMAIN,star-mini-nohsts.c10r.facebook.com
+DOMAIN,star-nohsts.c10r.facebook.com
 
 # Microsoft
 DOMAIN-SUFFIX,ac.bing.com
@@ -925,10 +923,7 @@ DOMAIN-SUFFIX,mchost.guru
 DOMAIN,aipa.bytedance.net
 DOMAIN,mon-va.byteoversea.com
 DOMAIN,maliva-mcs.byteoversea.com
-DOMAIN,pc-mon.zijieapi.com
-DOMAIN,mcs.zijieapi.com
 DOMAIN,bytegate-sg.byteintlapi.com
-DOMAIN,tnc3-bjlgy.zijieapi.com
 DOMAIN,lf3-static.bytednsdoc.com
 
 # 阿里巴巴
@@ -1166,7 +1161,6 @@ DOMAIN-SUFFIX,analytics.jd.com
 DOMAIN-SUFFIX,cc.m.jd.com
 DOMAIN-SUFFIX,ccc.x.jd.com
 DOMAIN-SUFFIX,data.jd.com
-DOMAIN-SUFFIX,dns.jd.com
 DOMAIN-SUFFIX,fireactive.jd.com
 DOMAIN-SUFFIX,firevent.jd.com
 DOMAIN-SUFFIX,gia.jd.com
@@ -1264,7 +1258,6 @@ DOMAIN-SUFFIX,get.sogou.com
 DOMAIN-SUFFIX,ie.sogou.com
 DOMAIN-SUFFIX,ime.baidu.com
 DOMAIN-SUFFIX,ime.sogou.com
-DOMAIN-SUFFIX,input.shouji.sogou.com
 DOMAIN-SUFFIX,macime.sogou.com
 DOMAIN-SUFFIX,olime.baidu.com
 DOMAIN-SUFFIX,oth.str.mdt.qq.com
