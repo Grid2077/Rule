@@ -488,6 +488,8 @@ DOMAIN,yuyin-httpdns.gslb.yy.com
 #Zhihu
 IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+#字节
+DOMAIN-SUFFIX,bdurl.net
 
 # IP查询
 DOMAIN-SUFFIX,api.ipify.org
@@ -913,6 +915,21 @@ DOMAIN,stun1.l.google.com
 DOMAIN,stun2.l.google.com
 DOMAIN,stun3.l.google.com
 DOMAIN,stun4.l.google.com
+
+# TRAE
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.com.cn
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us
+DOMAIN-SUFFIX,mchost.guru
+DOMAIN,aipa.bytedance.net
+DOMAIN,mon-va.byteoversea.com
+DOMAIN,maliva-mcs.byteoversea.com
+DOMAIN,pc-mon.zijieapi.com
+DOMAIN,mcs.zijieapi.com
+DOMAIN,bytegate-sg.byteintlapi.com
+DOMAIN,tnc3-bjlgy.zijieapi.com
+DOMAIN,lf3-static.bytednsdoc.com
 
 # 阿里巴巴
 DOMAIN-SUFFIX,ace.tb.cn
@@ -1432,3 +1449,4 @@ DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,queniusz.com
 DOMAIN-SUFFIX,rtc-log-report.bytedance.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,snssdk.com
