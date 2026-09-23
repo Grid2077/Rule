@@ -949,6 +949,7 @@ DOMAIN-SUFFIX,tdum.alibaba.com
 DOMAIN-SUFFIX,tfc.alimama.com
 DOMAIN-SUFFIX,trade-acs.m.taobao.com
 DOMAIN-SUFFIX,ulk.alimama.com
+DOMAIN,dypnsapi-dualstack.aliyuncs.com
 
 # 百词斩
 DOMAIN-SUFFIX,advertise.bczeducation.cn
