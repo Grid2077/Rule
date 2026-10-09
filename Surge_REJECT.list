@@ -304,9 +304,6 @@ DOMAIN-SUFFIX,bugsnag.com
 #B站
 DOMAIN-SUFFIX,chat.bilibili.com
 
-# CoinMarketCap
-DOMAIN-SUFFIX,api.saasexch.info
-
 # Datadog
 DOMAIN-SUFFIX,browser-intake-ap1-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-ap2-datadoghq.com
