@@ -289,8 +289,6 @@ DOMAIN-SUFFIX,weather-analytics-events.apple.com
 
 # Binance
 DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saasexch.com
-DOMAIN-SUFFIX,saasexch.co
 DOMAIN,adservice.binance.com
 DOMAIN,ads.binance.com
 DOMAIN,analytics.binance.com
