@@ -288,7 +288,6 @@ DOMAIN-SUFFIX,supportmetrics.apple-support.akadns.net
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 
 # Binance
-DOMAIN-SUFFIX,bntrace.com
 DOMAIN,adservice.binance.com
 DOMAIN,ads.binance.com
 DOMAIN,analytics.binance.com
