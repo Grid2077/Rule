@@ -293,6 +293,7 @@ DOMAIN,ads.binance.com
 DOMAIN,analytics.binance.com
 DOMAIN,metrics.binance.com
 DOMAIN,promotion.binance.com
+DOMAIN,log.bntrace.com
 
 # BlockBeats
 DOMAIN-SUFFIX,sunofbeaches.com
