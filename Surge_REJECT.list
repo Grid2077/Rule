@@ -286,6 +286,7 @@ DOMAIN-SUFFIX,securemetrics.apple.com
 DOMAIN-SUFFIX,stocks-analytics-events.apple.com
 DOMAIN-SUFFIX,supportmetrics.apple-support.akadns.net
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
+DOMAIN-SUFFIX,api-adservices.apple.com
 
 # Binance
 DOMAIN,adservice.binance.com
