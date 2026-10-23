@@ -302,7 +302,6 @@ DOMAIN-SUFFIX,sunofbeaches.com
 DOMAIN-SUFFIX,bugsnag.com
 
 #B站
-DOMAIN-SUFFIX,chat.bilibili.com
 DOMAIN,api.biliapi.com
 DOMAIN,app.biliapi.com
 DOMAIN,api.biliapi.net
@@ -956,9 +955,12 @@ DOMAIN,ad.maoyan.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,ossgw.alicdn.com
 DOMAIN,ems.youku.com
+DOMAIN,iyes.youku.com
+DOMAIN,m.ykimg.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,ut.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,apoll.m.taobao.com
 
 # 百词斩
 DOMAIN-SUFFIX,advertise.bczeducation.cn
