@@ -303,6 +303,10 @@ DOMAIN-SUFFIX,bugsnag.com
 
 #B站
 DOMAIN-SUFFIX,chat.bilibili.com
+DOMAIN,api.biliapi.com
+DOMAIN,app.biliapi.com
+DOMAIN,api.biliapi.net
+DOMAIN,app.biliapi.net
 
 # Datadog
 DOMAIN-SUFFIX,browser-intake-ap1-datadoghq.com
@@ -948,6 +952,13 @@ DOMAIN,dypnsapi-dualstack.aliyuncs.com
 DOMAIN,acs.m.taobao.com
 DOMAIN,acs.m.goofish.com
 DOMAIN,guide-acs.m.taobao.com
+DOMAIN,ad.maoyan.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,ut.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
 
 # 百词斩
 DOMAIN-SUFFIX,advertise.bczeducation.cn
@@ -1228,6 +1239,9 @@ DOMAIN-SUFFIX,riskchinaubi.com
 DOMAIN-SUFFIX,huojianaso.com
 DOMAIN-SUFFIX,zhuankemiao.com
 
+# 闪送
+DOMAIN,ads.ishansong.com
+
 # 深圳木星网络科技有限公司
 DOMAIN-SUFFIX,muxingnet.com
 DOMAIN-SUFFIX,upmuxing.top
@@ -1249,6 +1263,9 @@ DOMAIN-SUFFIX,sensorsdata.cloud
 DOMAIN-SUFFIX,sensorsdata.cn
 DOMAIN-SUFFIX,sensorsdata.com
 DOMAIN-SUFFIX,sensorsdatavip.com
+
+# 顺丰
+DOMAIN,ucmp.sf-express.com
 
 # 输入法
 DOMAIN-SUFFIX,account.sogou.com
@@ -1308,6 +1325,10 @@ DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,tudg.qq.com
 DOMAIN-SUFFIX,wenxin9.com
 DOMAIN,badjs.weixinbridge.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsmsdy.video.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,ads-shopping.shouqianba.com
 
 # 小红书
 DOMAIN-SUFFIX,ad.xiaohongshu.com
@@ -1380,6 +1401,7 @@ DOMAIN-SUFFIX,message.189cube.com
 DOMAIN-SUFFIX,open.e.189.cn
 
 # 中国联通
+DOMAIN-SUFFIX,ad.10010.com
 DOMAIN-SUFFIX,auth.wosms.cn
 DOMAIN-SUFFIX,enrichgw.10010.com
 DOMAIN-SUFFIX,hmrz.wo.cn
@@ -1405,6 +1427,9 @@ DOMAIN-SUFFIX,bbums.org.cn
 DOMAIN-SUFFIX,caicp.org.cn
 DOMAIN-SUFFIX,caict.ac
 
+# 中国邮政
+DOMAIN,ump.ems.com.cn
+
 # 中国移动
 DOMAIN-SUFFIX,config.cmpassport.com
 DOMAIN-SUFFIX,log1.cmpassport.com
@@ -1413,6 +1438,7 @@ DOMAIN-SUFFIX,smsks1.cmpassport.com
 DOMAIN-SUFFIX,verify.cmpassport.com
 DOMAIN-SUFFIX,wap.cmpassport.com
 DOMAIN-SUFFIX,www.cmpassport.com
+DOMAIN,ad.mcloud.139.com
 
 # 中科腾远（北京）科技有限公司
 DOMAIN-SUFFIX,zkty.org
