@@ -1269,7 +1269,7 @@ DOMAIN-SUFFIX,sensorsdata.com
 DOMAIN-SUFFIX,sensorsdatavip.com
 
 # 顺丰
-DOMAIN,ucmp.sf-express.com
+#DOMAIN,ucmp.sf-express.com
 
 # 输入法
 DOMAIN-SUFFIX,account.sogou.com
