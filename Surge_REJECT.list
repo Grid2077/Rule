@@ -1020,6 +1020,8 @@ DOMAIN-SUFFIX,mipcache.bdstatic.com
 DOMAIN-SUFFIX,mountain.zhidao.baidu.com
 DOMAIN-SUFFIX,zz.bdstatic.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
+DOMAIN-SUFFIX,mime.baidu.com
+
 
 # 北京东方网信科技股份有限公司
 DOMAIN-SUFFIX,net-east.com
@@ -1333,6 +1335,8 @@ DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsmsdy.video.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,ads-shopping.shouqianba.com
+DOMAIN,xsgdt.qq.com
+DOMAIN,sdkreport.e.qq.com
 
 # 小红书
 DOMAIN-SUFFIX,ad.xiaohongshu.com
@@ -1370,6 +1374,9 @@ DOMAIN-SUFFIX,zhuti.intl.xiaomi.com
 
 # 新流大数据科技（厦门）有限公司
 DOMAIN-SUFFIX,nflow.cn
+
+# 讯飞
+DOMAIN-SUFFIX,imeclient.openspeech.cn
 
 # 翼果（深圳）科技有限公司
 DOMAIN-SUFFIX,touchdata.io
