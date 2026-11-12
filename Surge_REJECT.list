@@ -1337,6 +1337,7 @@ DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,ads-shopping.shouqianba.com
 DOMAIN,xsgdt.qq.com
 DOMAIN,sdkreport.e.qq.com
+DOMAIN-SUFFIX,trace.qq.com
 
 # 小红书
 DOMAIN-SUFFIX,ad.xiaohongshu.com
