@@ -1021,7 +1021,10 @@ DOMAIN-SUFFIX,mountain.zhidao.baidu.com
 DOMAIN-SUFFIX,zz.bdstatic.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,mime.baidu.com
-
+DOMAIN-SUFFIX,dr-ime.baidu.com
+DOMAIN-SUFFIX,ime.baidu.com
+DOMAIN-SUFFIX,olime.baidu.com
+DOMAIN-SUFFIX,typing.bae.baidu.com
 
 # 北京东方网信科技股份有限公司
 DOMAIN-SUFFIX,net-east.com
@@ -1273,28 +1276,6 @@ DOMAIN-SUFFIX,sensorsdatavip.com
 # 顺丰
 #DOMAIN,ucmp.sf-express.com
 
-# 输入法
-DOMAIN-SUFFIX,account.sogou.com
-DOMAIN-SUFFIX,dr-ime.baidu.com
-DOMAIN-SUFFIX,get.sogou.com
-DOMAIN-SUFFIX,ie.sogou.com
-DOMAIN-SUFFIX,ime.baidu.com
-DOMAIN-SUFFIX,ime.sogou.com
-DOMAIN-SUFFIX,macime.sogou.com
-DOMAIN-SUFFIX,olime.baidu.com
-DOMAIN-SUFFIX,oth.str.mdt.qq.com
-DOMAIN-SUFFIX,p3p.sogou.com
-DOMAIN-SUFFIX,pcinput.baidu.com
-DOMAIN-SUFFIX,pinyin.sogou.com
-DOMAIN-SUFFIX,proxy.sogou.com
-DOMAIN-SUFFIX,push.sogou.com
-DOMAIN-SUFFIX,sginput.qq.com
-DOMAIN-SUFFIX,shouji.sogou.com
-DOMAIN-SUFFIX,tb.sogou.com
-DOMAIN-SUFFIX,typing.bae.baidu.com
-DOMAIN-SUFFIX,updateime.baidu.com
-DOMAIN-SUFFIX,wap.sogou.com
-
 # 淘宝联盟
 # DOMAIN-SUFFIX,mo.m.taobao.com
 
@@ -1339,6 +1320,20 @@ DOMAIN,xsgdt.qq.com
 DOMAIN,sdkreport.e.qq.com
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,wetype.weixin.qq.com
+DOMAIN-SUFFIX,get.sogou.com
+DOMAIN-SUFFIX,ie.sogou.com
+DOMAIN-SUFFIX,ime.sogou.com
+DOMAIN-SUFFIX,macime.sogou.com
+DOMAIN-SUFFIX,p3p.sogou.com
+DOMAIN-SUFFIX,pcinput.baidu.com
+DOMAIN-SUFFIX,pinyin.sogou.com
+DOMAIN-SUFFIX,proxy.sogou.com
+DOMAIN-SUFFIX,push.sogou.com
+DOMAIN-SUFFIX,shouji.sogou.com
+DOMAIN-SUFFIX,tb.sogou.com
+DOMAIN-SUFFIX,wap.sogou.com
+DOMAIN-SUFFIX,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,sginput.qq.com
 
 # 小红书
 DOMAIN-SUFFIX,ad.xiaohongshu.com
